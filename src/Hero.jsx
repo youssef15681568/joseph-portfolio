@@ -4,7 +4,7 @@ export default function Hero(){
 	
 
 	return(
-		<div className = "sm:h-screen relative flex flex-col-reverse sm:flex-row justify-around items-center mt-2 sm:mt-40">
+		<div id = "hero" className = "sm:h-screen relative flex flex-col-reverse sm:flex-row justify-around items-center mt-2 sm:mt-40">
 			<div className = "select-none sm:relative absolute ">
 				<p className = "text-[1.6rem] font-extrabold text-orange-500 pl-10"> >>Hi there !</p>
 				<div className = "flex items-end">

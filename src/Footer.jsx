@@ -63,8 +63,8 @@ export default function Footer(){
 
 
 	return(
-		<footer id = "contactMe">
-			<div className = "bg-blue-500 h-60 flex flex-col justify-center">
+		<footer id = "contact-me">
+			<div className = "bg-blue-500 h-screen flex flex-col justify-center">
 				<div className = "grid grid-cols-2 items-center max-sm:flex max-sm:flex-col max-sm:items-start max-sm:pl-10">
 					<h1 className = "text-white font-bold text-2xl flex justify-self-center select-none max-sm:pb-4 max-sm:flex">contact-me</h1>
 					<section >

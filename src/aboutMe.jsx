@@ -3,9 +3,9 @@ export default function AboutMe(){
 
 	return(
 
-		<div id = "aboutMe">
+		<div id = "about-me">
 			<h3 className = "font-bold text-white mt-2 text-[1.5rem] bg-slate-500 w-screen h-20 flex items-center justify-center border-b-slate-700 border-b-solid border-b-4 select-none" >About-me</h3>
-			<p className = "text-wrap p-10 text-xl text-justify">
+			<p className = "text-wrap p-10 text-xl text-justify h-screen">
 				Hi🖐🏻 I’m <b className = "text-blue-500">"Joseph El Memouni"</b>, a self-taught enthusiast in <span className = "text-orange-500">front-end web development</span>, <span className = "text-orange-500">graphic design</span>, and <span className = "text-orange-500">video editing</span>.
 
 				In web development, I focus on creating <span className = "text-cyan-500">responsive</span> and visually appealing websites using <b className = "text-orange-500">HTML</b>, <b className = "text-blue-500">CSS</b>, <b className = "text-yellow-500">JavaScript</b>, and <b className = "text-cyan-500">ReactJS</b>. My goal is to make websites that are <span className = "text-blue-500">user-friendly</span> and <span className = "text-blue-500">look great on any device</span>.
