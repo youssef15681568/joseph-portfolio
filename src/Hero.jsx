@@ -15,7 +15,7 @@ export default function Hero(){
 					sm:text-transparent
 					text-white
 					bg-clip-text"
-					>Joseph</h1>
+					>Youssef</h1>
 				</div>
 
 				<h1 className = "
@@ -32,8 +32,13 @@ export default function Hero(){
 					
 				</div>
 				<h3 className = "font-bold mt-6 text-[1.3rem] text-blue-500 pl-10">Welcome to my profile ( :</h3>
-				<div className = "sm:w-auto sm:justify-start w-screen flex justify-center sm:justify-end sm:mr-10">
-					<button className = "bg-gradient-to-r flex from-cyan-500 to-blue-500 hover:bg-gradient-to-l transition-all duration-200 text-white font-bold p-3 px-10 text-nowrap rounded-full sm:mt-10 mt-10 sm:ml-10 hover:text-slate-600"><a href = "#projects">see projects</a></button>
+				<div className = "sm:w-auto sm:justify-start w-screen flex justify-center sm:justify-end sm:mr-10 ">
+					<a href = "https://github.com/youssef15681568?tab=repositories" target = "_blank">
+						<button className = "bg-gradient-to-r flex hover:invert justify-center items-center gap-4 from-cyan-500 to-blue-500 hover:bg-gradient-to-l transition-all duration-200 text-white font-bold p-3 px-10 text-nowrap rounded-full sm:mt-10 mt-10 sm:ml-10 hover:text-black">
+							<p>see projects</p>
+							<img src = "https://cdn-icons-png.flaticon.com/512/25/25231.png" className = "w-10 h-10"/>
+						</button>
+					</a>
 				</div>
 			</div>
 			{/* <div className = "w-20 h-20 object-cover rounded-full  */}
