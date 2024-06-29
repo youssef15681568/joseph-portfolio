@@ -61,8 +61,8 @@ export default function Hero(){
 				max-sm:filter-none
 				hover:saturate-100
 				"
-				src = "https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=400" 
-				alt = ""/>
+				src = "/joseph-portfolio/images/20240628_102114.jpg"
+				alt = "my pic"/>
 			</div>
 			
 		</div>
