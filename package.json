@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/youssef15681568/joseph-portfolio.git",
+  "homepage": "https://youssef15681568.github.io/joseph-portfolio/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "firebase": "^10.12.2",
-    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scroll": "^1.9.0"
@@ -26,6 +25,7 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "react-router-dom": "^6.23.1",
     "tailwindcss": "^3.4.3",
