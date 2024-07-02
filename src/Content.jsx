@@ -28,7 +28,7 @@ export default function Content(){
 			>web developpement</h3>
 
 
-			<div className = {`grid grid-cols-3 gap-2 max-sm:flex max-sm:flex-col max-sm:items-center bg-blue-800 transition-all duration-300 ${webdev ? "h-dvh" : "h-[0px]"}`}>
+			<div className = {`grid grid-cols-3 gap-2 max-sm:flex max-sm:flex-col max-sm:items-center bg-blue-800 transition-all duration-300 ${webdev ? "h-[200vh]" : "h-[0px]"}`}>
 				<section className = {`bg-slate-800 rounded-xl h-60 flex flex-col items-center justify-start p-3 m-5 font-bold w-[22rem]
 				border-transparent border-solid border-2 hover:border-solid hover:border-white hover:border-2 transition-all duration-200
 				${webdev ? "scale-100" : "scale-0"}`}>
@@ -65,7 +65,7 @@ export default function Content(){
 			<h3 className = "font-bold text-white cursor-pointer flex justify-center items-center bg-orange-500 w-screen h-10 hover:bg-orange-700 select-none
 			border-b-transparent border-b-solid border-b-2 hover:border-b-solid hover:border-b-white hover:border-b-2 transition-all duration-200"
 			onClick = {handleGraphicDesign}>graphic design</h3>
-			<div className = {`grid grid-cols-3 gap-2 max-sm:flex max-sm:flex-col max-sm:items-center bg-orange-700 transition-all duration-300 ${graphicDesign ? "h-dvh" : "h-[0px]"}`}>
+			<div className = {`grid grid-cols-3 gap-2 max-sm:flex max-sm:flex-col max-sm:items-center bg-orange-700 transition-all duration-300 ${graphicDesign ? "h-[160vh]" : "h-[0px]"}`}>
 				<section className = {`bg-slate-800 rounded-xl h-60 flex flex-col items-center justify-start p-3 m-5 font-bold w-[22rem]
 				border-transparent border-solid border-2 hover:border-solid hover:border-white hover:border-2 transition-all duration-200
 				${graphicDesign ? "scale-100" : "scale-0"}`}>
@@ -95,7 +95,7 @@ export default function Content(){
 			<h3 className = "font-bold text-white cursor-pointer flex justify-center items-center bg-cyan-500 w-screen h-10 hover:bg-cyan-700 select-none
 			border-b-transparent border-b-solid border-b-2 hover:border-b-solid hover:border-b-white hover:border-b-2 transition-all duration-200"
 			onClick = {handleVideoEditing}>video editing</h3>
-			<div className = {`grid grid-cols-3 gap-2 max-sm:flex max-sm:flex-col max-sm:items-center bg-cyan-700 transition-all duration-300 ${videoEditing ? "h-dvh" : "h-[0px]"}`}>
+			<div className = {`grid grid-cols-3 gap-2 max-sm:flex max-sm:flex-col max-sm:items-center bg-cyan-700 transition-all duration-300 ${videoEditing ? "h-[100vh]" : "h-[0px]"}`}>
 				<section className = {`bg-slate-800 rounded-xl h-60 flex flex-col items-center justify-start p-3 m-5 font-bold w-[22rem]
 				border-transparent border-solid border-2 hover:border-solid hover:border-white hover:border-2 transition-all duration-200
 				${videoEditing ? "scale-100" : "scale-0"}`}>
